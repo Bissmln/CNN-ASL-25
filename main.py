@@ -56,7 +56,7 @@ st.markdown("""
 # --- 3. LOAD MODEL (Cached) ---
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('model_asl_huruf.h5')
+    model = tf.keras.models.load_model('model_asl.h5')
     return model
 
 try:
